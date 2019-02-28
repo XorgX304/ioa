@@ -1,0 +1,14 @@
+Package: com.bytearc.SafariLauncher
+Name: MyProgram
+Version: 1.0.4-1
+Architecture: iphoneos-arm
+Description: an example of using APT
+ Every day people use Cydia, but with the
+ instructions embodied in this package,
+ people can publish for it as well.
+Homepage: http://www.saurik.com/id/7
+Depiction: http://www.saurik.com/id/7
+Maintainer: Your Name <you@example.com>
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Sponsor: Microsoft <http://www.microsoft.com/>
+Section: Games

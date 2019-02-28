@@ -1,0 +1,105 @@
+
+
+install the webdriveragent from fb on the machine..
+
+https://livecode.com/how-to-create-a-free-ios-development-provisioning-profile/
+
+download the facebook webagentdriver from:
+
+  https://github.com/facebook/WebDriverAgent
+    
+ create an apple developer id,
+request cert from pref in xcode and use ios dev,
+configure the project with a bundle id and configure the all the targets (webdriveragentrunner,integrationapp etc.. etc..
+and the fking lib too
+                                                                         )
+run from the commandline:
+  xcodebuild -project WebDriverAgent.xcodeproj -scheme WebDriverAgentRunner -destination id=udid test
+  
+  (after first install):
+  
+  xcodebuild test-without-building -project WebDriverAgent.xcodeproj -scheme WebDriverAgentRunner -destination 'id=52dd53615088e628dde07a10318277189f8072cc' test
+  
+    xcodebuild build-for-testing test-without-building -project /usr/local/lib/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent/WebDriverAgent.xcodeproj -scheme WebDriverAgentRunner -destination id=792f80565fc88e2077c46132a9b6e9601e8175ee
+    
+    
+ you should see something like this:
+  
+  
+  writeDictToFile:1278 ==== Successfully wrote Manifest cache to /var/folders/ps/z_79n_g54zz4fgqzzrpwjbkm0000gn/C/com.apple.DeveloperTools/All/Xcode/EmbeddedAppDeltas/7ca52758138ad40f2951e7aba93080ad/52dd53615088e628dde07a10318277189f8072cc/ManifestCache.plist
+2019-01-23 18:50:53.270481-0800 WebDriverAgentRunner-Runner[864:121757] Running tests...
+2019-01-23 18:50:57.477766-0800 WebDriverAgentRunner-Runner[864:121757] Continuing to run tests in the background with task ID 1
+Test Suite 'All tests' started at 2019-01-23 18:50:57.711
+Test Suite 'WebDriverAgentRunner.xctest' started at 2019-01-23 18:50:57.719
+Test Suite 'UITestingUITests' started at 2019-01-23 18:50:57.724
+Test Case '-[UITestingUITests testRunner]' started.
+    t =     0.01s Start Test at 2019-01-23 18:50:57.735
+    t =     0.02s Set Up
+2019-01-23 18:50:57.774997-0800 WebDriverAgentRunner-Runner[864:121757] Built at Jan 23 2019 18:42:29
+2019-01-23 18:50:57.874065-0800 WebDriverAgentRunner-Runner[864:121757] ServerURLHere->http://192.168.1.43:8100<-ServerURLHere 
+        
+        
+        
+ install and run ios-webkit-debug-proxy here:
+ 
+ 
+ (youll need to run both = (( )
+ https://www.npmjs.com/package/remotedebug-ios-webkit-adapter
+ https://github.com/flutter/flutter/issues/22595
+ 
+ but run the debugproxy not the remote one..
+ 
+ ios_webkit_debug_proxy -c (udid):27753 -debug
+ 
+ 
+ 
+ after this run appium server (from nodejs)
+ 
+ but on local network ip e.g:
+ 
+ 192.168.1.somthing
+ 
+ http://appium.io/docs/en/writing-running-appium/server-args/
+ 
+ or similar..
+ 
+ no need for safarilauncher..
+ 
+ 
+ after this run:
+ 
+ # iOS environment
+import unittest
+from appium import webdriver
+
+
+
+
+desired_caps = {}
+desired_caps['platformName'] = 'iOS'
+desired_caps['browserName'] = 'Safari'
+#desired_caps['platformVersion'] = '12.1'
+desired_caps['automationName'] = 'XCUITest'
+desired_caps['deviceName'] = 'iPhone'
+desired_caps['udid'] = '' <= enter the device actuall udid here..
+desired_caps['webDriverAgentUrl'] = 'http://192.168.1.43:8100'
+#desired_caps['BundleId'] = 'io.wbv.runner.webdriveragentrunner'
+desired_caps['safariInitialUrl'] = 'https://www.google.com
+
+driver = webdriver.Remote('http://192.168.1.44:4723/wd/hub', desired_caps)
+
+driver.get('https://www.google.com/search?q=zibi')
+print driver.page_source
+ri = raw_input('..')
+driver.close()
+
+
+
+and this is it..
+
+
+https://www.security-locksmiths.com/locksmith-manteca-ca/?gclid=EAIaIQobChMIiKa18unx3wIViR-tBh2JZQD4EAAYAiAAEgIiOvD_BwE  https://www.google.com/search?q=locksmith%20Manteca&tci=g:10139817&uule=w+CAIQICIgTWFudGVjYSxDYWxpZm9ybmlhLFVuaXRlZCBTdGF0ZXM&cr=countryUS&
+
+https://www.google.com/search?q=santa%20clara%20lock%20smith&tci=g:10142491&uule=w+CAIQICIkU2FudGEgQ2xhcmEsQ2FsaWZvcm5pYSxVbml0ZWQgU3RhdGVz&hl=EN
+
+
