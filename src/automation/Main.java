@@ -65,9 +65,6 @@ import io.appium.java_client.remote.MobileCapabilityType;
 public class Main {
     
     
-    public static List<String> SeTargets = new ArrayList<String>();
-    
-    
     @SuppressWarnings("rawtypes")
     public static AppiumDriver gdrv;
     public static URL url;
@@ -301,8 +298,8 @@ public class Main {
             String browserName = "mobileOS";
             DesiredCapabilities cap = new DesiredCapabilities(browserName, "", Platform.ANY);
             
-            cap.setCapability("user", "root");
-            cap.setCapability("password", "alpine");
+            //cap.setCapability("user", "root");
+            //cap.setCapability("password", "alpine");
             cap.setCapability("deviceName", dname);
             cap.setCapability("platformName", "iOS");
             cap.setCapability("udid", udid);
