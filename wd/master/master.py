@@ -175,10 +175,6 @@ class Commander:
                 Flag = True
                 print 'waiting for the devices to reboot.'
                 print 'please make sure that all the devices are unlocked.'
-                print 'please see that Nordvpn is installed and that the "disconnect"'
-                print 'or the "connect" button are visable on screen.'
-                print 'please see that if you open the settings application'
-                print 'then its on the main screen or at the safari settings'
                 print 'now please wait a few minutes for the devices to cool down'
                 print 'go make yourself a coffee and come back.'
                 for i in range(4):
@@ -197,10 +193,6 @@ class Commander:
             g = raw_input('did you reboot all devices(yes/no)?')
             if g == 'yes':
                 print 'please make sure that all the devices are unlocked.'
-                print 'please see that Nordvpn is installed and that the "disconnect"'
-                print 'or the "connect" button are visable on screen.'
-                print 'please see that if you open the settings application'
-                print 'then its on the main screen or at the safari settings'
                 print 'now please wait a few minutes for the devices to cool down'
                 print 'go make yourself a cup of coffee and come back.'
                 break
@@ -217,13 +209,6 @@ class Commander:
             except Exception as e:
                 print e
                 return d
-                
-        
-        #if not (ord(sys.argv[-1][0]) == 100):
-            #self.u.nothing()
-        
-        
-        
 
         print 'available devices on the system:'
         for dv in self.devices.keys():
