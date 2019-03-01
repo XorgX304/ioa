@@ -29,7 +29,10 @@ install xcode from: https://developer.apple.com/xcode/ . <br><br>
 
 open the .xcodeproj file at the '/wd/wda' directory.<br>
 Change the bundleid to something else (for every sub project as well as the main one).<br>
-follow: http://appium.io/docs/en/drivers/ios-xcuitest-real-devices/ , if in trouble.<br><br>
+follow: http://appium.io/docs/en/drivers/ios-xcuitest-real-devices/ , if in trouble.<br>
+Make sure that iTunes is installed and that the devices are trusted by the computer and vice versa.
+unable UIAutomations, http services and disable rate limiting under the 'developer options'<br>
+((at the device settings))<br><br>
 
 build the driver and test it on one device at least once:<br>
 from the '/wd/wda' directory open terminal and run:<br><br>
