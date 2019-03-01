@@ -1,5 +1,5 @@
 # ioa
-automating (fuzzing) native ios, using fb's wda..<br><br>
+automating ( or fuzzing ) native ios, using fb's wda..<br><br>
 
 This project is a wrapper around fb's web driver agent.<br>
 given an example that make's use of https://github.com/MTJailed/XNU-Kernel-Fuzzer , in order to fuzz the ios kernel.<br>
