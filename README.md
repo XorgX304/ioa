@@ -11,7 +11,8 @@ current platform and open source solutions can be a real headache to manage.<br>
 with this interface you can easily install and configure native ios for fuzzing | automation.<br>
 
 # installation
-<br>
+**This is meant to be used on MacOS**
+<br><br>
 install dependencies:<br><br>
 download this directory and extract it some where.<br>
 from the extracted directory open terminal and run:<br><br>
@@ -54,6 +55,8 @@ check out: https://github.com/akayn/IORe , on how to do that...<br>
 # Usage
 
 ((exampled here a fuzzing setup using mtjialed xnufuzzer))<br><br>
+
+go to the bin directory
 
 
 
