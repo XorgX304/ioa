@@ -13,7 +13,8 @@ with this interface you can easily install and configure native ios for fuzzing 
 # Usage
 <br>
 install dependencies:<br><br>
-download this directory and extract it some where.<br><br>
+download this directory and extract it some where.<br>
+from the exctacted directory open terminal and run:<br>
 
 	$ bash setup.sh
 
