@@ -77,7 +77,7 @@ if you did everything right then you should be able to run:<br><br>
 	>run [device name] [BundleId]
 	>stop [device name]
 	
-EXAMPLE:<br><br>
+<br>**example**:<br><br>
 
 	>run iPhone ml.jailed.XNUFuzzer
 	
