@@ -10,7 +10,7 @@ current platform and open source solutions can be a real headache to manage.<br>
 
 with this interface you can easily install and configure native ios for fuzzing | automation.<br>
 
-# Usage
+# installation
 <br>
 install dependencies:<br><br>
 download this directory and extract it some where.<br>
@@ -50,5 +50,11 @@ or jailbreak the device and install on your own.<br>
 check out: https://github.com/akayn/IORe , on how to do that...<br>
 
 <br>
+
+# Usage
+
+((exampled here a fuzzing setup using mtjialed xnufuzzer))<br><br>
+
+
 
 
