@@ -5,7 +5,7 @@ This project is a wrapper around fb's web driver agent.<br>
 given an example that make's use of https://github.com/MTJailed/XNU-Kernel-Fuzzer , in order to fuzz the ios kernel.<br>
 but we are not limited to this usage.<br><br>
 
-i maid this interface in order to make the process of automating native ios easier.<br>
+i made this interface in order to make the process of automating native ios easier.<br>
 current platforms and open source solutions can be a real headache to manage (imho).<br><br>
 
 with this interface you can easily install and configure native ios for fuzzing | automation.<br><br><br>
