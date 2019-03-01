@@ -17,5 +17,6 @@ download this directory and extract it some where.<br><br>
 
 	$ bash setup.sh
 
-<br>  
-install xcode from: https://developer.apple.com/xcode/ . <br><br>
+<br> 
+install java from https://www.oracle.com/technetwork/java/javase/downloads/index.html . <br>
+install xcode from: https://developer.apple.com/xcode/ . <br>
