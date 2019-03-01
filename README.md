@@ -15,6 +15,7 @@ with this interface you can easily install and configure native ios for fuzzing 
 install dependencies:<br><br>
 download this directory and extract it some where.<br><br>
 
-  $ bash setup.sh
+	$ bash setup.sh
+
 <br>  
 install xcode from: https://developer.apple.com/xcode/ . <br><br>
