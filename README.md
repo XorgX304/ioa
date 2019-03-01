@@ -14,10 +14,13 @@ with this interface you can easily install and configure native ios for fuzzing 
 <br>
 install dependencies:<br><br>
 download this directory and extract it some where.<br>
-from the exctacted directory open terminal and run:<br>
+from the exctacted directory open terminal and run:<br><br>
 
 	$ bash setup.sh
 
 <br> 
+if anything shows errors at the setup.sh, then open the file and run every line separately.<br>
+Open a github issue at this repository so i can fix the error.
+<br><br>
 install java from https://www.oracle.com/technetwork/java/javase/downloads/index.html . <br>
 install xcode from: https://developer.apple.com/xcode/ . <br>
