@@ -53,11 +53,33 @@ check out: https://github.com/akayn/IORe , on how to do that...<br>
 <br>
 
 # Usage
-
+**after installation ofc..**<br>
 ((exampled here a fuzzing setup using mtjialed xnufuzzer))<br><br>
 
-go to the bin directory
+go to the '/bin' directory.<br>
+install CydiaImpactor and open it.<br>
+Choose the device that you would like to run, and drag the Fuzzer.ipa to the impactor tab.<br>
+enter some appleid (not a paid developer one!) and approve the profile on the device.<br>
+open a terminal and cd to the '/wd/wda' directory.<br>
+run:<br><br>
 
+	$ python master.py
+	
+<br>
+follow the onscreen instruction.<br>
+if you did everything right then you should be able to run:<br><br>
 
+	>run [device name] [BundleId]
+	>stop [device name]
+	
+EXAMPLE:<br><br>
 
+	>run iPhone ml.jailed.XNUFuzzer
+	
+# Contributing | Extending
 
+to change the automation functionality:<br>
+load the ioa eclipse project (zipped at '/bin/ioa.zip')<br>
+and change the java code (look at the '/src/examples')<br>
+
+**open a github issue for any inquiries**
