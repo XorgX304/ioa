@@ -15,3 +15,4 @@ for cmd in commands:
   runcommand(cmd.replace('XXX',os.path.abspath(d)))
   
 exit(0)
+
