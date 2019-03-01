@@ -17,7 +17,8 @@ install dependencies:<br><br>
 download this directory and extract it some where.<br>
 from the extracted directory open terminal and run:<br><br>
 
-	$ bash wd/setup.sh
+	$ cd wd
+	$ bash setup.sh
 
 <br> 
 if anything shows errors at the setup.sh, then open the file and run every line separately.<br>
