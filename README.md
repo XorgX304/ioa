@@ -31,7 +31,7 @@ open the .xcodeproj file at the '/wd/wda' directory.<br>
 Change the bundleid to something else (for every sub project as well as the main one).<br>
 follow: http://appium.io/docs/en/drivers/ios-xcuitest-real-devices/ , if in trouble.<br>
 Make sure that iTunes is installed and that the devices are trusted by the computer and vice versa.
-unable UIAutomations, http services and disable rate limiting under the 'developer options'<br>
+enable UIAutomations, http services and disable rate limiting under the 'developer options'<br>
 ((at the device settings))<br><br>
 
 build the driver and test it on one device at least once:<br>
@@ -89,3 +89,8 @@ load the ioa eclipse project (zipped at '/bin/ioa.zip')<br>
 and change the java code (look at the '/src/examples')<br>
 
 **open a github issue for any inquiries**
+
+
+
+
+
