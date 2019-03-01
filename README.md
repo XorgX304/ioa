@@ -88,12 +88,13 @@ Collect the panic logs and profit!<br><br>
 
 to change the automation functionality:<br>
 load the ioa eclipse project (zipped at '/bin/ioa.zip')<br>
-and change the java code (look at the '/src/examples')<br>
+and change the java code (look at the '/src/examples')<br><br><br>
 
 **open a github issue for any inquiries**
 
 
 <br><br><br><br>
+about the author:<br>
 <html><a href="http://rce.wtf">rce.wtf<a><html><br><br><br>
 
 
