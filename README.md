@@ -79,6 +79,9 @@ EXAMPLE:<br><br>
 
 	>run iPhone ml.jailed.XNUFuzzer
 	
+<br>
+Collect the panic logs and profit!<br><br>
+	
 # Contributing | Extending
 
 to change the automation functionality:<br>
