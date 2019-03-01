@@ -19,3 +19,5 @@ brew install carthage
 npm install -g ios-deploy
 npm install -g deviceconsole
 npm install iproxy
+python setup_helper.py
+
