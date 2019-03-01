@@ -99,5 +99,5 @@ about the author:<br>
 	
 	
 <br>
-paypal.me/theakayn<br>
+https://paypal.me/theakayn<br>
 
